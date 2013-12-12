@@ -1,3 +1,10 @@
+" Setting <leader> key
+let mapleader = ","
+let g:mapleader = ","
+
+" Fast saving
+nmap <leader>w :w!<cr>
+
 " Disable arrow keys
 no <down> ddp
 no <up> ddkP
