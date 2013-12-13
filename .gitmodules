@@ -1,0 +1,9 @@
+[submodule ".vim/bundle/vim-latex"]
+	path = .vim/bundle/vim-latex
+	url = git://git.code.sf.net/p/vim-latex/vim-latex
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git
+[submodule ".vim/bundle/NERDtree"]
+	path = .vim/bundle/NERDtree
+	url = https://github.com/scrooloose/nerdtree.git
