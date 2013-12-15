@@ -25,6 +25,9 @@ map k gk
 map <space> /
 map <c-space> ?
 
-" Disable highlight when <leader><cr> is pressed
-map <silent> <leader><cr> :noh<cr>
+" Disable highlight when <leader><space> is pressed
+map <silent> <leader><space> :noh<cr>
+
+" Create blank new line
+map <leader><cr> o<c-u>
 

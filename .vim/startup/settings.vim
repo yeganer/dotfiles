@@ -43,7 +43,7 @@ set novisualbell
 syntax enable
 
 set background=dark
-set t_Co=16
+"set t_Co=16
 let g:solarized_termcolors=256
 colorscheme solarized
 
@@ -65,8 +65,10 @@ set ffs=unix,dos,mac
 " => Tab and indent related
 """"""""""""""""""""""""""""""
 
-" Use spaces instead of tabs
+" Use 4 spaces instead of tabs
 set expandtab
+set sw=4
+set ts=4
 
 " Be smart when using tabs
 set smarttab
