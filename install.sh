@@ -1,10 +1,12 @@
 #!/bin/bash
 
-LINKS=".vim .vimrc .tmux.conf"
+LINKS="vim vimrc tmux.conf bashrc bash"
 
 DIR=`pwd`
+OLD=~/old_dotfiles
 
+mkdir $OLD
 for link in $LINKS; do
-    mv ~/$link ~/${link}.old
-    ln -s $DIR/$link ~/$link
+    mv ~/.$link $OLD/${link}
+    ln -s $DIR/$link ~/.$link
 done
