@@ -7,3 +7,6 @@
 [submodule "vim/bundle/NERDtree"]
 	path = vim/bundle/NERDtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/ultisnips"]
+	path = vim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips
