@@ -11,6 +11,9 @@ set shortmess=aAIsT
 
 set wildmenu
 
+" ignore unwritten buffer changes
+set hidden
+
 
 """"""""""""""""""""""""""""""
 " => User Interface

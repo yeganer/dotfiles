@@ -25,3 +25,8 @@ source ~/.vim/startup/settings.vim
 " => Proper LaTeX recognition
 """"""""""""""""""""""""""""""
 let g:tex_flavor='latex'
+
+""""""""""""""""""""""""""""""
+" => Ultisnips Directory
+""""""""""""""""""""""""""""""
+let g:UltiSnipsSnippetsDir='~/.vim/snippets/UltiSnips'
