@@ -11,7 +11,7 @@ set shortmess=aAIsT
 
 set wildmenu
 
-" Dont delete Buffers
+" ignore unwritten buffer changes
 set hidden
 
 
