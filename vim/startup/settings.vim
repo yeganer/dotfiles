@@ -11,6 +11,9 @@ set shortmess=aAIsT
 
 set wildmenu
 
+" Dont delete Buffers
+set hidden
+
 
 """"""""""""""""""""""""""""""
 " => User Interface
@@ -60,6 +63,11 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
+
+" Show Tabs and EOLs
+" set list listchars=tab:›,trail:-,extends:>,precedes:<,eol:¬
+set list
+set lcs=trail:-,extends:>,precedes:<,eol:¬,tab:›\ 
 
 """"""""""""""""""""""""""""""
 " => Tab and indent related
