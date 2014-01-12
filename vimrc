@@ -1,4 +1,6 @@
 " Personal vimrc
+scriptencoding utf-8
+set encoding=utf-8
 
 " Pathogen - Install all plugins
 call pathogen#infect()
@@ -26,3 +28,8 @@ source ~/.vim/startup/settings.vim
 " => Proper LaTeX recognition
 """"""""""""""""""""""""""""""
 let g:tex_flavor='latex'
+
+""""""""""""""""""""""""""""""
+" => Ultisnips Directory
+""""""""""""""""""""""""""""""
+let g:UltiSnipsSnippetsDir='~/.vim/snippets/UltiSnips'
