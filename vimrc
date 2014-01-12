@@ -2,6 +2,7 @@
 
 " Pathogen - Install all plugins
 call pathogen#infect()
+call pathogen#helptags()
 
 " Enabling Powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
