@@ -81,7 +81,11 @@ source $ZSH/oh-my-zsh.sh
 
 #custom stuff
 
-export TERM="xterm-256color"
+if [ "x$TERM" = "xxterm" ]; then
+    #if [ "$COLORTERM" != "" ]; then
+        #TERM="xterm-256color"
+    #fi
+fi
 
 setopt RM_STAR_WAIT
 
