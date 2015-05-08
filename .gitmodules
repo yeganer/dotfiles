@@ -1,18 +1,24 @@
-[submodule "vim/bundle/vim-latex"]
-	path = vim/bundle/vim-latex
+[submodule "vim/vim/bundle/vim-latex"]
+	path = vim/vim/bundle/vim-latex
 	url = git://git.code.sf.net/p/vim-latex/vim-latex
-[submodule "vim/bundle/powerline"]
-	path = vim/bundle/powerline
+[submodule "vim/vim/bundle/powerline"]
+	path = vim/vim/bundle/powerline
 	url = https://github.com/Lokaltog/powerline.git
-[submodule "vim/bundle/NERDtree"]
-	path = vim/bundle/NERDtree
+[submodule "vim/vim/bundle/NERDtree"]
+	path = vim/vim/bundle/NERDtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/bundle/ultisnips"]
-	path = vim/bundle/ultisnips
+[submodule "vim/vim/bundle/ultisnips"]
+	path = vim/vim/bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips
-[submodule "vim/bundle/vim-lua"]
-	path = vim/bundle/vim-lua
+[submodule "vim/vim/bundle/vim-lua"]
+	path = vim/vim/bundle/vim-lua
 	url = git@github.com:xolox/vim-lua-ftplugin.git
-[submodule "vim/bundle/vim-misc"]
-	path = vim/bundle/vim-misc
+[submodule "vim/vim/bundle/vim-misc"]
+	path = vim/vim/bundle/vim-misc
 	url = git@github.com:xolox/vim-misc.git
+[submodule "vim/vim/bundle/Vundle.vim"]
+	path = vim/vim/bundle/Vundle.vim
+	url = git@github.com:gmarik/Vundle.vim.git
+[submodule "zsh/oh-my-zsh"]
+	path = zsh/oh-my-zsh
+	url = git@github.com:robbyrussell/oh-my-zsh.git
