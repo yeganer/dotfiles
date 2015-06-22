@@ -31,3 +31,10 @@ map <silent> <leader><space> :noh<cr>
 " Create blank new line
 map <leader><cr> o<c-u>
 
+" Very-magic search
+map / /\v
+map ? ?\v
+
+" Easy vimrc edit and source
+map <leader>vimrc :e $MYVIMRC<CR>
+autocmd bufwritepost .vimrc source $MYVIMRC

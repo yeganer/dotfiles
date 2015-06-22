@@ -2,7 +2,13 @@ DIR=`pwd`
 
 all:	symlinks
 
-symlinks: zsh vim git tmux
+symlinks: zsh vim git tmux xterm
+
+xterm: xterm/Xresources
+	@ln -sf $(DIR)/xterm/Xresources ~/.Xresources
+
+xterm/Xresources: xterm/Xresources.def
+	cpp -P xterm/Xresources.def xterm/Xresources
 
 zsh:
 	@ln -nsf $(DIR)/zsh/zsh ~/.zsh
@@ -21,7 +27,7 @@ git:
 	@ln -nsf $(DIR)/git/gitignore_global ~/.gitignore_global
 
 
-.PHONY: symlinks zsh vim git tmux
+.PHONY: symlinks zsh vim git tmux xterm
 #
 #LINKS="vim vimrc tmux.conf bashrc bash zshrc"
 #LINKS="vim vimrc tmux.conf zshrc zsh"
