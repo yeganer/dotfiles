@@ -22,8 +22,8 @@ map j gj
 map k gk
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-map <space> /
-map <c-space> ?
+"map <space> /
+"map <c-space> ?
 
 " Disable highlight when <leader><space> is pressed
 map <silent> <leader><space> :noh<cr>
@@ -38,3 +38,8 @@ map ? ?\v
 " Easy vimrc edit and source
 map <leader>vimrc :e $MYVIMRC<CR>
 autocmd bufwritepost .vimrc source $MYVIMRC
+
+" Center screen on current line with <Space> and center searches
+nmap <space> zz
+nmap n nzz
+nmap N Nzz
